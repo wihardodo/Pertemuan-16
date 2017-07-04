@@ -1,0 +1,144 @@
+========================================================================================================================================================
+Pertemuan == 	          Materi		==  	Penjelasan   ==			      		 		==	Folder 		==
+========================================================================================================================================================	
+   1.			- Pendahuluan			- Menjelaskan perihal aturan perkuliahan			 - https://github.com/wihardodo/
+							  seperti toleransi keterlambatan 15menit,
+							  aturan penilaian
+							- Ditugaskan untuk membuat akun github
+			- Lab				- Lab: Membuat Program untuk menampilkan 
+							  "Hello World"
+							  contoh:public class HelloWorld {
+      							  public static void main (String args []) {
+          						  System.out.println (“Hello World”); }
+							  }
+=======================================================================================================================================================
+   2.			- Konsep OOP			- OOP : Yaitu paradigma atau cara pandang pemrograman
+							  yang berorentasikan berdasarakan objek sebagai 
+							  ide dasar
+			- Lab				- Lab: Membuat program input dan output pada java
+=======================================================================================================================================================
+   3.			- Class dan Objek		- Class merupakan suatu “Blueprint” atau “Cetakan” 
+							  untuk menciptakan suatu instant dari object. 
+							  Class juga merupakan grup suatu object dengan 
+						          kemiripan attributes/properties, behavior dan 
+							  relasi ke object lain. Contoh :Class Person,
+							  Tree, Fruit dan lainnya.
+
+							- Object adalah instance dari class secara umum 
+							  merepresentasikan (template) sebuah object, sebuah 
+					                  instance adalah representasi nyata dari class itu 
+							  sendiri. Contoh : Dari Class Fruit kita dapat membuat 
+							  object Mangga, Pisang, Apel, dan lainnya.
+			- Lab				- Lab : Ditugaskan untuk menuliskan type data pada 		-ClassTypeData
+							  pemrograman java. Contoh: String, byte, short, int,
+							  long, float, double, boolean, dan char.
+=======================================================================================================================================================
+   4.			- Method			- Method : sekumpulan statement program yang disatukan 
+							  menjadi sebuah subprogram atau fungsi.	
+			- Kontruktor			- Constructor : merupakan suatu method yang akan memberikan 
+						          nilai awal pada saat suatu objek dibuat. Pada saat 
+							  program dijalankan, constructor akan bekerja 
+							  dengan constructor
+			- This				- This : dipergunakan pada pembuatan kelas dan 
+							  digunakan untuk menyatakan objek sekarang. 
+							  Untuk menghindari variabel yang sama antara 
+							  variabel class dengan variabel property.
+						        - Contoh: class Siswa2{ 
+								String nama; 
+								String nim; 
+								void isiData ( String nama,String nim) { 
+								this.nama=nama; 
+								this.nim=nim; 
+									} 
+			- Atribut			- Atribut : sesuatu yang dimiliki oleh objek.  
+							  Setiap objek yang dibuat dari kelas yang 
+					  		  sama akan memiliki atribut yang sama.   	
+							  Contoh  :  pada Class  Fruit  terdapat  
+							  attribute  : warna,  berat  pada  
+							  object mangga  : warna  berisi  kuning  
+							  dan  berat  misalkan  0.25  kg 
+			
+			- Lab 				- Lab : Ditugaskan untuk menuliskan method dan atribut		- Project-Method-dan-Konstruktor
+							  dari tugas yang sebelumnya.
+							- Membuat program perulangan dan memasukan nilai IP		- Variable-dan-Latihan-MenghitungIP
+========================================================================================================================================================
+   5.			- Inheritance			- suatu proses dimana , suatu class yang bisa 
+							  disebut super class ,dapat mewarisi sifat atau 
+							  ciri-ciri,  seperti atribut dan method, 
+							  ke dalam class turunanya yaitu sub class. 
+							  Super class akan mewarisi nilai dari atribut 
+							  atau behavior ke Class turunanya atau class lain
+							  Contoh : class Binatang {}
+								class Anjing extends Binatang {
+								//contoh sub class
+								}
+								class Kucing extends Binatang {
+								//contoh sub class }
+			- Lab				- Lab : Ditugaskan untuk menuliskan Inheritance pada 		- tugasInheritance
+							  tugas sebelumnya
+=========================================================================================================================================================
+   6.			- Overriding			- Overriding : overriding merupakan method yang 		- tugas-Override
+							  parrent class yang ditulis kembali oleh subclass
+							  Contoh : class Hewan {
+									public void makan() {
+        								System.out.println("Hewan bisa makan");}}
+									class Ayam extends Hewan {
+									@Override
+   									 public void makan() {
+     								         System.out.println("Ayam bisa makan");
+        								 super.makan();}}
+									public class MainAyam {
+    									public static void main(String args[]) {
+       									 Hewan ayam = new Hewan();
+        								Ayam ayamKate = new Ayam();
+       									 ayam.makan();
+        								ayamKate.makan();}}
+			- Lab				- Lab : Penilaian tugas Overriding
+   7.			- Lab					  #Pengenalan Polimorfisme : Kemampuan sebuah objek yang 
+   								  dapat memiliki banyak kelas
+============================================================================================================================================================  
+   8. UTS
+============================================================================================================================================================
+   9.			- Abstraction			- Abstraction : digunakan untuk open source program agar memudahkan	- Tugas-Pertemuan9-Abstraction
+							  pengembang atau memberitahu pengembang kalau method atau fungsi itu
+							  harus ada tanpa pengguna tahu cara kerjanya
+							  Contoh : public abstrack class mahasiswa{}
+			- Lab				- Lab : Ditugaskan untuk melanjutkan tugas sebelumnya
+							  dengan membuat abstraction	  
+=============================================================================================================================================================
+   10.			- Enkapsulasi			- Enkapsulasi : pembungkus, pembungkus disini 
+							  dimaksudkan untuk menjaga suatu proses program 
+							  agar tidak dapat diakses secara sembarangan 
+						  	  atau di intervensi oleh program lain.	
+			- Lab				- Lab : Latihan membuat enkapsulasi
+=============================================================================================================================================================
+   11.			- Interface			- Interface : Sebuah reference typr yang mirip dengan kelas
+							- Contoh : public interface socket{
+									publci string getPower();}
+			- Lab				- Lab : Latihan membuat interface pada program yang sudah ada
+=============================================================================================================================================================
+   12.			- Generic Class			- Generic Class :kelas yang universal atau umum				- ClassGeneric
+							- Contoh : public class Generic<T>{}
+			- Lab				- Lab : Ditugaskan untuk membuat class generic pada
+							  program yang sudah dibuat sebelumnya
+=============================================================================================================================================================
+   13.			- Generic Method		- Generic Method : digunakan untuk menyatakan type parameter 
+							  method yang tidak berkaitan dengan tipe parameter yang 
+							  dimiliki kelas. menyatakan tipe generik untuk parameter method
+							  Contoh : public <T> void printArray(T[] a){}
+			- Lab	  			- Lab : Mengerjakan latihan membuat class generic			- Tugas-Class-Generic-di-Lab
+=============================================================================================================================================================
+   14.			- Generic Method 		- Lab : Mengerjakan latihan membuat class generic dan			- Tugas-Class-Generic-di-LabPertemuan-14	
+							  method genericdan lalu dinilai.
+=============================================================================================================================================================
+   15.			- Packages			 - Packages : digunakan untuk menghindari komflik 
+							   penamaan kelas, interafce, dan lain-lain.
+							 - Contoh : package mypackage
+			- Lab 				 - Lab : latihan membuat packages dengan program yang sudah ada sebelumnya.
+====================================================================================================================================================================
+   16. 			- Meriview materi dari awal
+			  hingga akhir				 - ditugaskan untuk membuat 1 kelompok yang terdiri dari 3 orang	- Pertemuan-16
+								   kemudian diskusi perihal rangkuman materi dari awal hingga akhir 
+								   lalu ditulis disebuah kertas.
+====================================================================================================================================================================		 
+							   
